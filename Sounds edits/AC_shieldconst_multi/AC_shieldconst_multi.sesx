@@ -2,7 +2,7 @@
 <!DOCTYPE sesx>
 <sesx version="1.9">
 
-  <session appBuild="22.0.0.96" appVersion="22.0" audioChannelType="mono" bitDepth="32" duration="1440000" sampleRate="48000">
+  <session appBuild="22.2.0.61" appVersion="22.2" audioChannelType="mono" bitDepth="32" duration="1440000" sampleRate="48000">
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
         <trackParameters trackHeight="134" trackHue="160" trackMinimized="false">
@@ -71,12 +71,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="35167" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="370203__nekoninja__shield-guard 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="29619" startPoint="5548" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="35167" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="370203__nekoninja__shield-guard 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="29619" startPoint="5548" zOrder="0">
           <component componentGuid="922309f0-2b42-4c1d-8ebe-a7a60965f943" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="8f13883b-d339-432c-b0b6-d4808772f48d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="abdf523f-c4e6-478b-a222-a7e604e3e3e4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -89,7 +89,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
         <trackParameters trackHeight="134" trackHue="267" trackMinimized="false">
           <name>Track 2</name>
         </trackParameters>
@@ -156,12 +156,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="19858" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="slice_noedit 48000 1" offline="false" select="false" sourceInPoint="3473" sourceOutPoint="23331" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="19858" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="slice_noedit 48000 1" offline="false" select="false" sourceInPoint="3473" sourceOutPoint="23331" startPoint="0" zOrder="0">
           <component componentGuid="4a99eb7c-03b0-407f-9d2c-f4f2e5c7d39c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f32e9132-221e-418e-b00e-302d10572692" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="9c1136bd-5729-402c-8808-0e6faf021520" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -174,7 +174,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
         <trackParameters trackHeight="134" trackHue="51" trackMinimized="false">
           <name>Track 3</name>
         </trackParameters>
@@ -515,8 +515,8 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="55413" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="55413"/>
+    <sessionState ctiPosition="27752" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="27752"/>
       <viewState horizontalViewDuration="142865" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
@@ -532,9 +532,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 22.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2021-12-02T17:20:07-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2021-12-02T18:01:28-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2021-12-02T18:01:28-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:54a9c4b4-e0fc-8343-bbd4-c65c936f69b0</xmpMM:InstanceID>
+         <xmp:MetadataDate>2022-04-20T19:51:42-04:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2022-04-20T19:51:42-04:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:4a8d92f0-3979-8b49-9e6c-dc7b659ee6a3</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:b180ddde-7236-ac49-8788-7ae2158bc101</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:b180ddde-7236-ac49-8788-7ae2158bc101</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -572,6 +572,20 @@
                   <stEvt:instanceID>xmp.iid:54a9c4b4-e0fc-8343-bbd4-c65c936f69b0</stEvt:instanceID>
                   <stEvt:when>2021-12-02T18:01:28-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 22.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4ad51e60-b8c6-8d42-8020-bb1721859865</stEvt:instanceID>
+                  <stEvt:when>2022-04-20T19:51:42-04:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 22.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4a8d92f0-3979-8b49-9e6c-dc7b659ee6a3</stEvt:instanceID>
+                  <stEvt:when>2022-04-20T19:51:42-04:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 22.2 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
             </rdf:Seq>
@@ -698,8 +712,8 @@
   </session>
 
   <files>
-    <file absolutePath="D:\Nicholas\Documents\School\G400\Sounds\WIP\AC_shieldconst_multi\Conformed Files\slice_noedit 48000 1.wav" id="0" mediaHandler="AmioWav" relativePath="Conformed Files/slice_noedit 48000 1.wav"/>
-    <file absolutePath="D:\Nicholas\Documents\School\G400\Sounds\WIP\AC_shieldconst_multi\Conformed Files\370203__nekoninja__shield-guard 48000 1.wav" id="1" mediaHandler="AmioWav" relativePath="Conformed Files/370203__nekoninja__shield-guard 48000 1.wav"/>
+    <file absolutePath="D:\Nicholas\Documents\Github\Repositories\G421\G421_workshop\Sounds edits\AC_shieldconst_multi\Imported Files\shield_part2_v1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="Imported Files/shield_part2_v1.wav"/>
+    <file absolutePath="D:\Nicholas\Documents\Github\Repositories\G421\G421_workshop\Sounds edits\AC_shieldconst_multi\Imported Files\shiled_part1_v1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="Imported Files/shiled_part1_v1.wav"/>
   </files>
 
   <audioDevice inputID="E3F54E32-3AA5-4060-AAAA-9E8981C6F0DD" outputID="E9C8CA8C-8954-4D0A-81F3-5C39EDA0803C">
